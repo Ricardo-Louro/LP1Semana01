@@ -14,6 +14,9 @@ namespace TiposVarios
             char e = '\u00A1';
             char f = '\u00BC';
 
+            float g = 8.92483f;
+            double h = 8.92483;
+
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
@@ -21,6 +24,9 @@ namespace TiposVarios
             Console.WriteLine(d);
             Console.WriteLine(e);
             Console.WriteLine(f);
+
+            Console.WriteLine(g);
+            Console.WriteLine(h);
 
         }
     }
