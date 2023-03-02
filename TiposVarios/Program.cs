@@ -17,6 +17,9 @@ namespace TiposVarios
             float g = 8.92483f;
             double h = 8.92483;
 
+            bool i = true;
+            bool j = false;
+
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
@@ -27,6 +30,9 @@ namespace TiposVarios
 
             Console.WriteLine(g);
             Console.WriteLine(h);
+
+            Console.WriteLine(i);
+            Console.WriteLine(j);
 
         }
     }
