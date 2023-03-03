@@ -8,6 +8,9 @@ namespace VariasStrings
         ///A lil bit confused
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
+
             int x = 24;
             char y = '\u00A9';
             string a = "Hello, I'm Bugs";
@@ -33,6 +36,14 @@ namespace VariasStrings
             Console.WriteLine(i);
 
             Console.WriteLine(@"Verbatim com f = {0}", f);
+
+            Console.WriteLine($"xx = {xx:f2}");
+            Console.WriteLine($"xx = {xx:p1}");
+
+            Console.WriteLine($"ii = {ii:X}");
+            Console.WriteLine($"ii = {ii:C}");
+
+
         }
     }
 }
