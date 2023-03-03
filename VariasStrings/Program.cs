@@ -2,10 +2,15 @@
 
 namespace VariasStrings
 {
-    ///What tags?
+    /// <summary>
+    /// Declare the class Program
+    /// </summary>
     class Program
     {
-        ///A lil bit confused
+        /// <summary>
+        /// Initialize Main, receiving the array of strings args
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             double xx = 0.12345;
